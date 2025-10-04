@@ -1,0 +1,24 @@
+{
+  "name": "NovaChain Mainnet",
+  "chain": "NOVA",
+  "rpc": [
+    "https://backend.nova-chain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NovaAction Coin",
+    "symbol": "NAC",
+    "decimals": 18
+  },
+  "infoURL": "https://nova-chain.io",
+  "shortName": "nova",
+  "chainId": 6996,
+  "networkId": 6996,
+  "explorers": [
+    {
+      "name": "NovaChain Explorer",
+      "url": "https://nova-chain.io/explorer",
+      "standard": "none"
+    }
+  ]
+}
