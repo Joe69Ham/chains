@@ -1,0 +1,28 @@
+{
+  "name": "NovaChain EVM Sidechain",
+  "chain": "NOVA",
+  "rpc": [
+    "https://evm.nova-chain.io"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Wrapped NovaAction Coin",
+    "symbol": "wNAC",
+    "decimals": 18
+  },
+  "infoURL": "https://nova-chain.io",
+  "shortName": "nova-evm",
+  "chainId": 96969,
+  "networkId": 96969,
+  "explorers": [
+    {
+      "name": "NovaChain Explorer",
+      "url": "https://nova-chain.io/explorer",
+      "standard": "EIP3091"
+    }
+  ],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-6996"
+  }
+}
